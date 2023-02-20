@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:padding="11dp"
+    tools:context=".Singup">
+
+    <EditText
+        android:id="@+id/edfirst"
+        style="@style/CardView.Light"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="First Name"
+        android:inputType="text"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/edlast"
+        style="@style/CardView.Light"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="15"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/edphone"
+        style="@style/CardView.Light"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="Mobail No"
+        android:inputType="phone"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/edemail"
+        style="@style/CardView.Light"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/edpass"
+        style="@style/CardView.Light"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:hint="Password"
+        android:inputType="textVisiblePassword"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/edcpass"
+        style="@style/CardView.Light"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:hint="Conform Password"
+        android:inputType="textVisiblePassword"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textSize="20sp"></EditText>
+
+    <CheckBox
+        android:id="@+id/chmen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:text="Men"
+        android:textColor="@color/black"
+        android:textSize="20sp"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/chwomen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="410dp"
+        android:text="Women"
+        android:textColor="@color/black"
+        android:textSize="20sp"></CheckBox>
+
+    <Button
+        android:id="@+id/btnsin2"
+        style="@style/CardView.Light"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="490dp"
+        android:backgroundTint="#F64783"
+        android:text="Sing Up"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"></Button>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:padding="11dp"
+    tools:context=".SecondAct">
+
+    //Email
+
+    <EditText
+        android:id="@+id/edemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:hint="Email"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textSize="20sp"></EditText>
+
+//Password
+
+    <EditText
+        android:id="@+id/edps"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edemail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="22dp"
+        android:hint="Password"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textSize="20sp"></EditText>
+
+    //Login
+
+    <Button
+        android:id="@+id/btnlog"
+        style="@style/CardView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edps"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#F64783"
+        android:text="Log in"
+
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"></Button>
+
+    //Forgot Password
+
+    <Button
+        android:id="@+id/btnfor"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlog"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="52dp"
+        android:text="Forgot Password?"
+        android:textColor="#59DDF4"
+
+        android:textSize="17sp"></Button>
+
+    //Sing Up
+
+    <Button
+        android:id="@+id/btnsin"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edemail"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="272dp"
+        android:text="Sing up"
+        android:textColor="#59DDF4"
+        android:textSize="17sp"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Menact">
+
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="160dp"
+        android:src="@drawable/fashw"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="218dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="200dp"
+        android:clickable="true"
+        android:fadingEdge="vertical|none"
+        android:linksClickable="true"
+        android:nestedScrollingEnabled="false"
+        android:text="FashWash"
+        android:textColor="#41EC4A"
+        android:textSize="25dp"
+        android:textStyle="italic"></Button>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/gel"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="243dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:clickable="true"
+        android:text="Gel"
+        android:textColor="#41EC4A"
+        android:textSize="25dp"
+        android:textStyle="italic"></Button>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/perfume"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="243dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        android:clickable="true"
+        android:text="Perfume"
+        android:textColor="#41EC4A"
+        android:textSize="25dp"
+        android:textStyle="italic"></Button>
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/beard"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn4"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="243dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="600dp"
+        android:clickable="true"
+        android:text="Beard Oil"
+        android:textColor="#41EC4A"
+        android:textSize="25dp"
+        android:textStyle="italic"></Button>
+
+</RelativeLayout>

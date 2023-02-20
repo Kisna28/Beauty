@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Womenact">
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="160dp"
+        android:src="@drawable/lipstick"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="218dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="200dp"
+        android:text="Lipstick"
+        android:textColor="#41EC4A"
+        android:textSize="25dp"
+        android:textStyle="italic"></Button>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/compact"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="243dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:text="Compact"
+        android:textColor="#41EC4A"
+        android:textSize="25dp"
+        android:textStyle="italic"></Button>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/perfumewomen"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="243dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        android:text="Perfume"
+        android:textColor="#41EC4A"
+        android:textSize="25dp"
+        android:textStyle="italic"></Button>
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/kajal"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn4"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="243dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="600dp"
+        android:text="Eye kajal"
+        android:textColor="#41EC4A"
+        android:textSize="25dp"
+        android:textStyle="italic"></Button>
+
+</RelativeLayout>
